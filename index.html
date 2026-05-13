@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+      <title>2048</title>
+  </head>
+      <link rel="stylesheet" href="2048.css">
+  <style>
+      @font-face {
+          font-family: "arrow";
+          src: url("/fonts/Arrows tfb.ttf");
+      }
+      @font-face {
+          font-family: "dynamic";
+          src: url("/fonts/DynamicDisplay.ttf");
+      }
+  </style>
+  <body>
+        <div class="container" id="outlay">
+            <div class="title">
+                <div id="top">
+                    <div class="letter" id="l1"></div>
+                    <div class="letter" id="l3"></div>
+                </div>
+                <div id="bot">
+                    <div class="letter" id="l2"></div>
+                    <div class="letter" id="l4"></div>
+                </div>
+            </div>
+            <div class="inlay" id="2048"></div>
+
+            <div class="score">
+                <div class='scoreval' id="scoreval"></div>
+            </div>
+
+
+            <div class="highscore">
+                <div class='scoreval' id="highscoreval"></div>
+            </div>
+
+            <button onCLick={restart()} class="restart" id="restart">
+
+            </button>
+        </div>
+  </body>
+  
+  <script src="2048.js"></script>
+</html>
