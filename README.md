@@ -1,3 +1,3 @@
-Play my version of the game at (in-development): [2048](https://pouch-broadband-overeager.ngrok-free.dev/?ngrok-skip-browser-warning=true)
+Play my version of the game at (in-development): [2048](https://two048-jnrv.onrender.com)
 
 ![demo](demo.gif)
